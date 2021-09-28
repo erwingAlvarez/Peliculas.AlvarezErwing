@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <ImageView
+        android:id="@+id/ing_peli"
+        android:layout_width="100dp"
+        android:layout_height="158dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/era"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Era del hielo"
+            android:layout_margin="8dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"
+            android:text="Veinte mil años antes de nuestra era, Scrat, un roedor obstinado, quiebra el banco de hielo y desencadena una nueva Edad de hielo, una gran cohorte de mamíferos se reúnen y empiezan a emigrar hacia el sur, Manny, un mamut solitario, se empeña en ir hacia el norte y pronto se unirá a él Sid, un perezoso que busca protección."/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
