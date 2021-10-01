@@ -1,6 +1,7 @@
 package com.example.peliculasalvarezerwing
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -44,6 +45,18 @@ class AdaptadorPeliculas: BaseAdapter {
         tv_nombre.setText(pelicula.nombre)
         tv_desc.setText(pelicula.desc)
         ing.setImageResource(pelicula.ing)
+
+        visita.setOnClickListener{
+
+            val intent: Intent = Intent(context, DetallePelicula:: class.java)
+
+            intent.putExtra("nombre", pelicula.nombre)
+            intent.putExtra("desc", pelicula.desc)
+            intent.putExtra("ing", pelicula.ing)
+
+
+            context.startActivity(intent)
+        }
 
         return visita
 

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PeliculasAlvarezErwing">
         <activity
+            android:name=".DetallePelicula"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

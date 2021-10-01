@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetallePelicula">
+
+
+    <TextView
+        android:id="@+id/nombre.detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Era del hielo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/ing_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:text="Era del hielo"
+        android:src="@drawable/era"/>
+    
+    <TextView
+        android:id="@+id/desc_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aqui va la descripcion"
+
+        android:layout_margin="10dp"
+        android:textSize="18sp"/>
+
+
+
+
+
+
+</LinearLayout>
