@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PeliculasAlvarez.Erwing</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Peliculas</string>
+    <string name="title_dashboard">Series</string>
+    <string name="title_notifications">Favoritos</string>
 </resources>

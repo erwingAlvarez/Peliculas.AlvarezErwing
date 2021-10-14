@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Noeal/AndroidStudioProjects/Peliculas.AlvarezErwing/app/src/main/res/drawable/ic_baseline_live_tv_24.xml" value="0.2" />
+        <entry key="..\:/Users/Noeal/AndroidStudioProjects/Peliculas.AlvarezErwing/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/Noeal/AndroidStudioProjects/Peliculas.AlvarezErwing/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.25" />
+        <entry key="..\:/Users/Noeal/AndroidStudioProjects/Peliculas.AlvarezErwing/app/src/main/res/layout/activity_detalle_pelicula.xml" value="0.1" />
+        <entry key="..\:/Users/Noeal/AndroidStudioProjects/Peliculas.AlvarezErwing/app/src/main/res/layout/activity_detalle_serie.xml" value="0.11503623188405797" />
+        <entry key="..\:/Users/Noeal/AndroidStudioProjects/Peliculas.AlvarezErwing/app/src/main/res/layout/activity_main.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Noeal/AndroidStudioProjects/Peliculas.AlvarezErwing/app/src/main/res/layout/fragment_dashboard.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Noeal/AndroidStudioProjects/Peliculas.AlvarezErwing/app/src/main/res/layout/fragment_home.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Noeal/AndroidStudioProjects/Peliculas.AlvarezErwing/app/src/main/res/layout/fragment_notifications.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/Noeal/AndroidStudioProjects/Peliculas.AlvarezErwing/app/src/main/res/layout/pelicula_view.xml" value="0.1" />
+        <entry key="..\:/Users/Noeal/AndroidStudioProjects/Peliculas.AlvarezErwing/app/src/main/res/layout/serie_view.xml" value="0.11503623188405797" />
+        <entry key="..\:/Users/Noeal/AndroidStudioProjects/Peliculas.AlvarezErwing/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/Users/Noeal/AndroidStudioProjects/PeliculasAlvarezErwing/app/src/main/res/layout/activity_detalle_pelicula.xml" value="0.18" />
         <entry key="..\:/Users/Noeal/AndroidStudioProjects/PeliculasAlvarezErwing/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Noeal/AndroidStudioProjects/PeliculasAlvarezErwing/app/src/main/res/layout/pelicula_view.xml" value="0.22" />

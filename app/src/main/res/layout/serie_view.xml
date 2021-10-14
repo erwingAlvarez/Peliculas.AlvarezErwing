@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ing_serie"
+        android:layout_width="100dp"
+        android:layout_height="158dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/robot"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_nombre_serie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mr. robot"
+            android:layout_margin="8dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_desc_serie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:justificationMode="inter_word"
+            android:text="Mr. Robot es una serie de televisión de género tecno-thriller y drama estadounidense creada por Sam Esmail. Está protagonizada por Rami Malek como Elliot Alderson, un ingeniero de seguridad informática y pirata informático que padece un trastorno de ansiedad social y depresión clínica."/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

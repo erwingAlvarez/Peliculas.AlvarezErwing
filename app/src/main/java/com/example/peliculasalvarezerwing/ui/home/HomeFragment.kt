@@ -1,25 +1,53 @@
-package com.example.peliculasalvarezerwing
+package com.example.peliculasalvarezerwing.ui.home
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
 import android.widget.ListView
+import android.widget.TextView
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
+import com.example.peliculasalvarezerwing.AdaptadorPeliculas
+import com.example.peliculasalvarezerwing.Pelicula
+import com.example.peliculasalvarezerwing.R
+import com.example.peliculasalvarezerwing.databinding.FragmentHomeBinding
 
-class MainActivity : AppCompatActivity() {
+class HomeFragment : Fragment() {
 
     var peliculas: ArrayList<Pelicula> = ArrayList()
+    private lateinit var homeViewModel: HomeViewModel
+    private var _binding: FragmentHomeBinding? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+    // This property is only valid between onCreateView and
+    // onDestroyView.
+    private val binding get() = _binding!!
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        homeViewModel =
+            ViewModelProvider(this).get(HomeViewModel::class.java)
+
+        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        val root: View = binding.root
 
         agregar_peliculas()
 
-        val adaptador: AdaptadorPeliculas = AdaptadorPeliculas(this, peliculas)
+        val lv_peliculas: ListView = root.findViewById(R.id.listView_peliculas)
+        val adaptador = AdaptadorPeliculas(root.context, peliculas)
 
-        val listView: ListView = findViewById(R.id.listView)
+        lv_peliculas.adapter = adaptador
 
-        listView.adapter =  adaptador
+        return root
+    }
 
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 
     fun agregar_peliculas(){
